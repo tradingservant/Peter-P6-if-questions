@@ -723,8 +723,11 @@ button:disabled { cursor: default; }
 
 @media (max-width: 380px) {
   html { font-size: 16.5px; }
-  .board { grid-template-columns: 1fr; }
   .wordmark { font-size: 2rem; }
+}
+
+@media (max-width: 339px) {
+  .board { grid-template-columns: 1fr; }
 }
 
 @media (min-width: 800px) {
